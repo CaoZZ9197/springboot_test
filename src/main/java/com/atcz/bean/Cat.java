@@ -8,7 +8,22 @@ import lombok.Data;
  */
 
 @Data
-public class Cat {
+public class Cat extends Pet{
+
     String Name;
     Long age;
+
+    Cat(){}
+
+    final String type="cat";
+
+    @Override
+    void eat() {
+        System.out.println(this.Name+" is eating");
+    }
+
+    @Override
+    void play() {
+        System.out.println(this.Name+ " is playing");
+    }
 }

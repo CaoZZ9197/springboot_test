@@ -1,0 +1,13 @@
+person:
+  name: zhangsan
+  age: 20
+  id: 1
+  interests:
+    - 跑步
+    - 篮球
+  car:
+    brand: BYD
+    price: 10000
+  pet:
+    name: xiaohuang
+    age: 2

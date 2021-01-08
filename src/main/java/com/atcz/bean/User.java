@@ -14,5 +14,5 @@ public class User {
     String Name;
 
     @Autowired
-    Cat cat;
+    Pet pet;
 }
