@@ -11,3 +11,9 @@ person:
   pet:
     name: xiaohuang
     age: 2
+
+spring:
+#  mvc:
+#    static-path-pattern: /res/**
+
+
